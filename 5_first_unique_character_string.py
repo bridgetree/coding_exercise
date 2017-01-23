@@ -1,5 +1,5 @@
 def firstUniqChar(self, s):
-          if s == "":
+         if s == "":
               return -1
           dict = {}
           for i in s:
