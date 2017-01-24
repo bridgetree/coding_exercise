@@ -22,3 +22,15 @@ def mergeTwoLists2(self, l1, l2):
     else:
         l2.next = self.mergeTwoLists(l1, l2.next)
         return l2
+
+    
+# Regular Python without nodes
+
+def mergeSortedLists(a, b):
+    l = []
+    while a and b:
+        if a[0] < b[0]:
+            l.append(a.pop(0))
+        else:
+            l.append(b.pop(0))
+    return l + a + b
