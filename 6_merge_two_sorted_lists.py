@@ -1,4 +1,4 @@
-# iteratively
+# Iteratively
 def mergeTwoLists1(self, l1, l2):
     dummy = cur = ListNode(0)
     while l1 and l2:
@@ -12,7 +12,7 @@ def mergeTwoLists1(self, l1, l2):
     cur.next = l1 or l2
     return dummy.next
     
-# recursively    
+# Recursively    
 def mergeTwoLists2(self, l1, l2):
     if not l1 or not l2:
         return l1 or l2
