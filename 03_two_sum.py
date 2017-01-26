@@ -1,7 +1,6 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        if len(nums) <= 1:
-            return False
+def twoSum(self, nums, target):
+    if len(nums) <= 1:
+        return False
         buff_dict = {}
         for i in range(len(nums)):
             if nums[i] in buff_dict:
