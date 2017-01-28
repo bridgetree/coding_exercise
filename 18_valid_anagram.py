@@ -1,4 +1,4 @@
-def isAnagram2(self, s, t):
+def isAnagram1(self, s, t):
     dic1, dic2 = [0]*26, [0]*26
     for item in s:
         dic1[ord(item)-ord('a')] += 1
@@ -8,7 +8,7 @@ def isAnagram2(self, s, t):
 
 # Using dictionary
 
-def isAnagram1(self, s, t):
+def isAnagram2(self, s, t):
     dic1, dic2 = {}, {}
     for item in s:
         dic1[item] = dic1.get(item, 0) + 1
