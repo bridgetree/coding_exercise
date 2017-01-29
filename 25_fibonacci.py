@@ -8,10 +8,9 @@ def fib(x):
 
 # Dynamic Programming
 
-# finding fibonacci numbers using dynamic programming
 
-mem = {0: 0, 1: 1}
 def fib(x):
+    mem = {0: 0, 1: 1}
     if x in mem:
         return mem[x]
     r = fib(x-1) + fib(x-2)
