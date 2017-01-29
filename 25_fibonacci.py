@@ -8,7 +8,6 @@ def fib(x):
 
 # Dynamic Programming
 
-
 def fib(x):
     mem = {0: 0, 1: 1}
     if x in mem:
