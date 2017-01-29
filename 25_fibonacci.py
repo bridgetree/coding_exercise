@@ -15,5 +15,5 @@ def fib(x):
     if x in mem:
         return mem[x]
     r = fib(x-1) + fib(x-2)
-     mem[x] = r
-     return r
+    mem[x] = r
+    return r
