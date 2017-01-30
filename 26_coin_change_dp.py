@@ -1,6 +1,6 @@
 def dpMakeChange(coinValueList,change):
-    minCoins = [0]*(amnt+1)
-    for cents in range(change+1):
+    minCoins = [0]*(change + 1)
+    for cents in range(change + 1):
        coinCount = cents
        for j in [c for c in coinValueList if c <= cents]:
              if minCoins[cents-j] + 1 < coinCount:
