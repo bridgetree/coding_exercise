@@ -8,8 +8,6 @@ def firstUniqChar(self, s):
               else:
                   dict[i] = 1
 
-          max = 0
-          print dict
           cnt = 0
           for i in s:
               if dict[i] == 1:
